@@ -1,0 +1,4 @@
+## Custom S2I script for gitbucket
+# Details: https://github.com/gitbucket/gitbucket/wiki/Basic-configurations
+
+${JAVA_HOME}/bin/java -jar ${HOME}/gitbucket.war

@@ -1,0 +1,5 @@
+## Download gitbucket war file from the URL
+export GITBUCKET_VERSION=4.33.0
+export WAR_URL=https://github.com/gitbucket/gitbucket/releases/download/${GITBUCKET_VERSION}/gitbucket.war
+curl -o ${HOME}/gitbucket.war ${WAR_URL} 
+
